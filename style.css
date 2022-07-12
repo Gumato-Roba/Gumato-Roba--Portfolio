@@ -175,10 +175,7 @@ section .title::after {
     top: 30%;
     border-radius: 100%;
     border-style: dotted;
-    border-left-color: rgb(21, 199, 223);
-    border-right-color: rgb(21, 199, 223);
-    border-top-color: rgb(21, 199, 223);
-    border-bottom-color: rgb(21, 199, 223);
+    border-color: rgb(21, 199, 223);
     white-space: nowrap;
 }
 
@@ -462,10 +459,12 @@ section .title::after {
     color: black;
     border-radius: 25px;
     margin-left: 5%;
-    height: 40vh;
-    width: 30%;
+    height: 20vh;
+    width: 15%;
 }
-
+.project1 a{
+ display: block;
+}
 .project2 {
     background-color: rgb(72, 121, 128);
     border: 5px solid rgb(21, 199, 223);
@@ -473,8 +472,8 @@ section .title::after {
     margin-left: 5%;
     padding: 10px;
     color: black;
-    height: 40vh;
-    width: 30%;
+    height: 20vh;
+    width: 15%;
 }
 
  .project3 {
@@ -484,8 +483,28 @@ section .title::after {
     margin-left: 5%;
     padding: 10px;
     color: black;
-    height: 40vh;
-    width: 30%;
+    height: 20vh;
+    width: 15%;
+}
+.project4 {
+    background-color: rgb(72, 121, 128);
+    border: 5px solid rgb(21, 199, 223);
+    border-radius: 25px;
+    margin-left: 5%;
+    padding: 10px;
+    color: black;
+    height: 20vh;
+    width: 15%;
+}
+.project5 {
+    background-color: rgb(72, 121, 128);
+    border: 5px solid rgb(21, 199, 223);
+    border-radius: 25px;
+    margin-left: 5%;
+    padding: 10px;
+    color: black;
+    height: 20vh;
+    width: 15%;
 }
 .tables {
     margin-left: 5%;
